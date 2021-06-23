@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/cupbg"
+    tools:context=".ShowAgeActivity">
+
+    <EditText
+        android:id="@+id/inputyear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="144dp"
+        android:ems="10"
+        android:hint="@string/year_of_birth"
+        android:inputType="date"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/showAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:text="@string/myage"
+        android:textColor="#207845"
+        android:textSize="20sp"
+        android:fontFamily="cursive"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/inputyear"
+        app:layout_constraintStart_toStartOf="@+id/inputyear"
+        app:layout_constraintTop_toBottomOf="@+id/inputyear" />
+
+    <Button
+        android:id="@+id/showButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:backgroundTint="#207845"
+        android:fontFamily="cursive"
+        android:textAllCaps="false"
+        android:text="@string/show_my_age"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/showAge"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="@+id/showAge"
+        app:layout_constraintTop_toBottomOf="@+id/showAge"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+<!--
+Photo by <a href="https://unsplash.com/@oliviaht?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Olivia Herlambang-Tham</a> on <a href="https://unsplash.com/backgrounds/events/birthday?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  -->
+<!--
+Photo by <a href="https://unsplash.com/@edgardo1987?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Edgar Soto</a> on <a href="https://unsplash.com/backgrounds/events/birthday?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+-->
