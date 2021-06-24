@@ -1,5 +1,5 @@
 # ShowMyAge-App
-MVVM based android project via view binding and view model
+MVVM based👩‍💻 android project✔✨ via view binding🧬🧬 and view model
 
 **Show My Age** :child: Android project 
 
