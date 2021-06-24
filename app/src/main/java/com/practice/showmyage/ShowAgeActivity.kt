@@ -27,7 +27,7 @@ class ShowAgeActivity : AppCompatActivity() {
 
          viewmodel.userAge.observe(this,{
             t ->  if(t!=null){
-                val show = R.strings.showmsg                                                           //"You are ${t.age} year old"
+                val show = R.string.showmsg.toString()                                                           //"You are ${t.age} year old"
              binding.showAge.text = show
              binding.constraintLayout.setBackgroundResource(R.drawable.cupbg2)
              binding.showAge.visibility= View.VISIBLE
