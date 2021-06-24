@@ -3,4 +3,5 @@
     <string name="year_of_birth">Enter your year of birth</string>
     <string name="myage">TextView</string>
     <string name="show_my_age">Show My Age</string>
+    <string name="showmsg">"You are ${t.age} year old"</string>
 </resources>
