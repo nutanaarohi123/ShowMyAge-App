@@ -14,6 +14,12 @@ Usuages :
 
 Layout used :
 * Constraint Layout
+* ScrollView (so user if rotate screen , can scroll freely ,  resulting flexible layout)
+
+*Why MVVM*
+
+If the user rotates the activity is stopped and started again.
+so the data is lost and user need to click button again.thus to save livedata , I have used viewModel .
 
 app layout 
  * Home Layout 
