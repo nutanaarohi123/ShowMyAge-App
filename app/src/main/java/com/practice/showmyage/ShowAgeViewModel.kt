@@ -23,6 +23,6 @@ class ShowAgeViewModel : ViewModel() {
         val userage = currentyear - yob
         val age = Age(userage)
         userMutableLiveData!!.value = age
-        Log.i("ShowAge","Your age is $age")  //not necessary just for confirmation
+        Log.d("ShowAge","Your age is $age")  //not necessary just for confirmation 
     }
 }
