@@ -15,7 +15,15 @@ Usuages :
 Layout used :
 * Constraint Layout
 
-app logo 
+app layout 
+ * Home Layout 
+
+
+  ![Home Layout](https://github.com/nutanaarohi123/ShowMyAge-App/blob/main/homelayout.jpg)
+  
+  * OnClick button layout 
+
+![btnlayout](https://github.com/nutanaarohi123/ShowMyAge-App/blob/main/onclickLayout.jpg)
 
 Thank you for going through the project :slightly_smiling_face:
 
