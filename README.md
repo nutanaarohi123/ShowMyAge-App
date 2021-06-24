@@ -27,9 +27,15 @@ app layout
 
   ![Home Layout](https://github.com/nutanaarohi123/ShowMyAge-App/blob/main/homelayout.jpg)
   
+Photo by <a href="https://unsplash.com/@oliviaht?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Olivia Herlambang-Tham</a> on <a href="https://unsplash.com/backgrounds/events/birthday?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+
+  
   * OnClick button layout 
 
 ![btnlayout](https://github.com/nutanaarohi123/ShowMyAge-App/blob/main/onclickLayout.jpg)
+
+Photo by <a href="https://unsplash.com/@edgardo1987?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Edgar Soto</a> on <a href="https://unsplash.com/backgrounds/events/birthday?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Thank you for going through the project :slightly_smiling_face:
 
